@@ -1521,11 +1521,11 @@
         "id": "T-0301",
         "title": "Generate Daydream Tees prompts (5)",
         "type": "task",
-        "status": "in-progress",
+        "status": "done",
         "owner": "Clawd",
         "assignee": "clawd",
         "business": "Design/Merch",
-        "notes": "St. Patrick's Day + Spring humor themes",
+        "notes": "St. Patrick's Day + Spring humor themes. Output: pm/outputs/daydream-tees/2026-02-01_2130_daydream-tees-st-patricks-prompts.md. 5 prompts created: Lucky Dad, Irish Luck Meets Dad Luck, Spring Forward Fall Behind, Don't Let the Kids Drive, My Irish is Showing.",
         "story": "As the owner of this task, I want to generate Daydream Tees design prompts so that designs can be created via Nano Banana Pro. Key details: 5 prompts for St. Patrick's Day + Spring themes.",
         "createdAt": ""
     },
