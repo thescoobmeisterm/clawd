@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --clawd-bg: #0f0f23;
+  --clawd-card: #1a1a3e;
+  --clawd-accent: #7c3aed;
+}
+
+body {
+  background: var(--clawd-bg);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clawd-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clawd-card);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clawd-accent);
+}
+
+/* Avatar glow effects */
+.avatar-glow-curious {
+  box-shadow: 0 0 20px #3b82f6, 0 0 40px #3b82f6;
+}
+
+.avatar-glow-productive {
+  box-shadow: 0 0 20px #22c55e, 0 0 40px #22c55e;
+}
+
+.avatar-glow-thoughtful {
+  box-shadow: 0 0 20px #a78bfa, 0 0 40px #a78bfa;
+}
+
+.avatar-glow-playful {
+  box-shadow: 0 0 20px #f59e0b, 0 0 40px #f59e0b;
+}
+
+.avatar-glow-tired {
+  box-shadow: 0 0 20px #64748b, 0 0 40px #64748b;
+}
+
+.avatar-glow-connected {
+  box-shadow: 0 0 20px #ec4899, 0 0 40px #ec4899;
+}
