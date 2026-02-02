@@ -1509,11 +1509,11 @@
         "id": "T-0300",
         "title": "Draft Apollo video scripts (3)",
         "type": "task",
-        "status": "in-progress",
+        "status": "done",
         "owner": "Clawd",
         "assignee": "clawd",
         "business": "Children's Media",
-        "notes": "Scripts for standard YouTube videos (not Shorts)",
+        "notes": "Scripts for standard YouTube videos (not Shorts). Output: pm/outputs/apollo/2026-02-01_2300_apollo-youtube-video-scripts.md. Scripts: 1) Apollo's Shape Hunt (shapes), 2) Apollo's Feelings Face (emotions), 3) Apollo Counts to Ten (counting).",
         "story": "As the owner of this task, I want to draft Apollo video scripts so that Matt can review and produce. Key details: Create 3 scripts for standard YouTube videos.",
         "createdAt": ""
     },
