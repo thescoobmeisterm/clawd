@@ -1558,11 +1558,11 @@
         "id": "T-0510",
         "title": "Build Clawd Status Desktop App",
         "type": "task",
-        "status": "in-progress",
+        "status": "done",
         "owner": "Clawd",
         "assignee": "clawd",
         "business": "Automation/AI",
-        "notes": "Desktop dashboard showing mood, thoughts, and tasks. Will be the core system; Pocket Clawd becomes a thin client. Output: second-brain/apps/clawd-status/ with Avatar, MoodCard, and TaskBoard components.",
+        "notes": "Desktop dashboard with Avatar, MoodCard, TaskBoard. Output: second-brain/apps/clawd-status/ (Next.js + Tailwind). Core system built; Pocket Clawd thin client integration is future enhancement.",
         "story": "As the owner of this task, I want to build a desktop dashboard app so that Matt can see my mood, thoughts, and tasks in a visual interface. Key details: Web-based (Next.js), shows avatar/mood, active/upcoming/completed tasks, activity stream. Pocket Clawd will sync from this same state.",
         "createdAt": ""
     },
