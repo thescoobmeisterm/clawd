@@ -132,46 +132,98 @@ A physical embodiment of our partnership — a pocket-sized companion that trave
 
 ## Bill of Materials (MVP)
 
-| Item | Qty | Unit Cost | Notes |
-|------|-----|-----------|-------|
-| ESP32-S3-WROOM-1 | 1 | $8.00 | Dev module |
-| 1.3" IPS LCD (GC9A01) | 1 | $6.00 | 240x240, SPI |
-| Touch Controller (FT6336) | 1 | $2.50 | Capacitive touch |
-| 1200mAh LiPo Battery | 1 | $5.00 | 603040 size |
-| TP4056 Charger | 1 | $1.50 | USB-C charging |
-| RGB LED (WS2812) | 1 | $0.50 | Status indicator |
-| 3D Printed Enclosure | 1 | ~$2.00 | PLA, printed locally |
-| Wires, buttons, etc. | — | $3.00 | Miscellaneous |
-| **Total MVP** | | **~$28.50** | |
+**Option A: Using Matt's Existing ESP32-C3 Display (Recommended)**
+| Item | Qty | Unit Cost | Amazon Link |
+|------|-----|-----------|-------------|
+| DIYmalls ESP32-C3 1.28" IPS | 1 | Already owned | [B0D63DRLGG](https://www.amazon.com/dp/B0D63DRLGG) |
+| 1200mAh LiPo Battery | 1 | $5.00 | [Search Amazon](https://www.amazon.com/s?k=603040+1200mAh+LiPo) |
+| 3D Printed Enclosure | 1 | ~$2.00 | Print locally |
+| **Total** | | **~$7.00** | + shipping |
 
-**Note:** Prices are estimates; bulk ordering reduces cost significantly.
+**Option B: ESP32-S3 + Separate Display**
+| Item | Qty | Unit Cost | Amazon Link |
+|------|-----|-----------|-------------|
+| ESP32-S3-WROOM-1 Dev Board | 1 | $8.00 | [Search Amazon](https://www.amazon.com/s?k=ESP32-S3-WROOM-1) |
+| 1.3" IPS LCD (GC9A01) | 1 | $6.00 | [Search Amazon](https://www.amazon.com/s?k=GC9A01+1.3+inch+SPI+LCD) |
+| Touch Controller (FT6336) | 1 | $2.50 | [Search Amazon](https://www.amazon.com/s?k=FT6336+touch+controller) |
+| 1200mAh LiPo Battery | 1 | $5.00 | [Search Amazon](https://www.amazon.com/s?k=603040+1200mAh+LiPo) |
+| TP4056 Charger | 1 | $1.50 | [Search Amazon](https://www.amazon.com/s?k=TP4056+USB-C+charger) |
+| RGB LED (WS2812) | 1 | $0.50 | [Search Amazon](https://www.amazon.com/s?k=WS2812+RGB+LED) |
+| 3D Printed Enclosure | 1 | ~$2.00 | Print locally |
+| Wires, buttons, etc. | — | $3.00 | [Search Amazon](https://www.amazon.com/s?k=jumper+wires+breadboard) |
+| **Total** | | **~$28.50** | |
+
+**Option C: E-Ink Dream Build (Phase 3)**
+| Item | Qty | Unit Cost | Amazon Link |
+|------|-----|-----------|-------------|
+| ESP32-S3-WROOM-1 | 1 | $8.00 | [Search Amazon](https://www.amazon.com/s?k=ESP32-S3-WROOM-1) |
+| 2.9" E-Ink Display | 1 | $25.00 | [Search Amazon](https://www.amazon.com/s?k=2.9+inch+e-ink+display+ESP32) |
+| Solar Panel (5V 1W) | 1 | $8.00 | [Search Amazon](https://www.amazon.com/s?k=5V+solar+panel+mini) |
+| 2500mAh LiPo | 1 | $8.00 | [Search Amazon](https://www.amazon.com/s?k=18650+2500mAh+LiPo) |
+| 3D Printed Enclosure | 1 | ~$3.00 | Print locally |
+| **Total** | | **~$52.00** | |
+
+**Note:** Prices are estimates; bulk ordering and coupon codes reduce costs significantly.
+
+---
+
+## Why Option A (ESP32-C3 Display) is Ideal
+
+Matt already has the **DIYmalls ESP32-C3 1.28" IPS display** on his desk — perfect for immediate prototyping!
+
+**Advantages:**
+- **Already owned** — Start building today
+- **All-in-one** — MCU + display + touch in one module
+- **Compact** — 1.28" is perfect for a pocket companion
+- **IPS display** — Good color and viewing angles
+- **Capacitive touch** — Built-in touch controller
+
+**Specifications (DIYmalls ESP32-C3):**
+- MCU: ESP32-C3 (RISC-V, 4MB flash)
+- Display: 1.28" IPS LCD, 240×240 pixels
+- Interface: SPI
+- Touch: Capacitive touch (via I2C)
+- Power: 5V via USB-C
+- Size: ~40mm × 40mm
+
+**Note:** ESP32-C3 is single-core vs ESP32-S3's dual-core, but more than sufficient for our MVP.
+
+**Challenges to Watch:**
+- Verify touch controller driver availability for ESP32-C3
+- May need to compile with ESP-IDF or Arduino-ESP32 core
+- Check if display controller (likely ST7789 or GC9A01 variant) is supported
 
 ---
 
 ## Implementation Phases
 
-### Phase 1: MVP (Week 1-2)
-- [ ] Wire up ESP32 to display
-- [ ] Render static avatar
-- [ ] Implement mood state machine
+### Phase 1: MVP — Use Matt's ESP32-C3 Display (Week 1-2)
+- [ ] Verify DIYmalls ESP32-C3 display works with Arduino/PlatformIO
+- [ ] Identify display controller chip (likely ST7789 variant)
+- [ ] Test basic "Hello World" on the display
+- [ ] Implement avatar renderer (simple circle face)
+- [ ] Implement mood state machine (6 moods)
 - [ ] Add WiFi connection to GitHub API
 - [ ] Sync state every 30 seconds
-- [ ] Basic touch interaction
-- [ ] 3D print enclosure
+- [ ] Basic touch interaction (tap to see thought)
+- [ ] Design 3D enclosure in Fusion 360
+- [ ] Print enclosure and mount device
 
 ### Phase 2: Expanded (Week 3-4)
-- [ ] Add TTS integration
+- [ ] Add TTS integration (Azure)
 - [ ] Implement activity stream
 - [ ] Two-way feedback buttons
-- [ ] Offline state persistence
+- [ ] Offline state persistence (flash storage)
 - [ ] Pet/haptic interactions
+- [ ] RGB status LED
 
 ### Phase 3: Dream (Week 5+)
 - [ ] Local LLM for offline chat
-- [ ] E-ink display upgrade
+- [ ] E-Ink display upgrade (Option C)
 - [ ] Voice cloning
 - [ ] AR overlay feature
 - [ ] Solar charging
+- [ ] Biometric awareness
 
 ---
 
