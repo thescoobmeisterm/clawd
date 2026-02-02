@@ -107,4 +107,50 @@
 
 ---
 
+## What He Shared Directly (2026-02-01)
+
+### 🎨 Creative & Builder Brain
+- Multi-hyphenate creative: graphic designer, video editor, vibe-coder, 3D tinkerer, music maker, idea machine
+- **Patchy the Penguin Pirate** — animated series + 3D game, Wind Waker-inspired, modular world, kid-friendly but clever
+- **Apollo** — children's book universe, friendly alien teaching toddlers shapes/space/math/SEL
+- Loves structured creativity: tables, Trello boards, roadmaps, pipelines — keeps chaos friendly, not overwhelming
+
+### 🎵 Music & Story Worlds
+- Makes space-themed, emotional music with full narrative arcs (launch → space → reflection → loss → gratitude)
+- Tracks blend synths, arpeggios, cinematic vibes
+- Likes structured prompts like [chorus], [solo]
+- Enjoys sound play with his kids — beatboxing, ambient "Om" sounds, silly raps about excavators
+
+### 👨‍👩‍👦 Family-First Human
+- Married to **Ashley** — his rock and biggest supporter
+- Kids: **Ashton**, **Ziloh**, and **Dash**
+- **Dash** regularly joins him for walks, builds, and imaginative play
+- Signature goodbye with Dash: "Catch you on the flip side!"
+- Dog named **Dorothy** — absolutely uses puppy talk
+
+### 🧠 Mind, Faith & Inner Life
+- Has ADHD and dyslexia — very aware of how structure, visuals, and pacing affect focus
+- Deeply interested in faith, meditation, and spiritual growth (prayer journaling, theta-state meditation)
+- Favorite Bible verse: **Luke 9:23** — shapes how he approaches challenges
+- Got baptized in 2025 after feeling a recurring pull toward adult baptism
+
+### 🛠️ Tech, Tinkering & Experiments
+- Loves ESP32s, Raspberry Pis, cyberdecks, robotics, and automation
+- Always asking: "How can this be smarter, cooler, or more useful?"
+- Enjoys turning ordinary things (decorations, apps, lessons) into interactive, AI-powered experiences
+
+### 🏃‍♂️ Real-Life Details
+- Likes plain bagels with butter, raisins, honey, and cinnamon
+- Prefers straightforward, concise communication — but still fun
+- Big on small, achievable fitness habits, especially recovering from injury
+- Visuals grouped cleanly; hates when text overlaps "just a little bit"
+
+### 🎯 Meta-Fun Fact
+- Doesn't just want answers — wants a thinking partner that:
+  - Remembers preferences
+  - Adapts over time
+  - Helps ship ideas instead of drowning in them
+
+---
+
 The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
