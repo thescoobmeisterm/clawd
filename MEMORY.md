@@ -5,6 +5,15 @@
 
 ## Systems
 - Clawdbot gateway runs locally on port 18789 (default).
+- **Auto Skill Installer** (2026-02-04): Proactively detects capability gaps, searches clawdhub.com for skills, and suggests installations
+  - Commands: find, install, analyze, list-missing, detect
+  - Integrated into SOUL.md for passive detection during conversations
+  - Location: `skills/auto-skill-installer/`
+- **PM Tomagotchi** (2026-02-04): Consolidated task manager at `pm/` with loop automation
+  - CSV-based persistence (`pm/data/*.csv`)
+  - React UI (`pm/src/App.jsx`)
+  - Loop runner helper for automated clawd tasks
+  - Merged from `pm-app/`
 
 ## Projects / Assets in Workspace
 - **Second Brain** (NEW): Next.js document viewer at `second-brain/` with:
