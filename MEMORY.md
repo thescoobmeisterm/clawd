@@ -16,6 +16,26 @@
     - Loop logs bloat file (50+ lines per loop task)
 
 ## Projects / Assets in Workspace
+- **The Borg** (2026-02-14): AI Board of Directors now operational
+  - CTO (Elon), CMO (Gary V), CRO (Warren) active
+  - Daily standup at 9am weekdays
+  - Autonomy charter defines decision rights
+- **PM Agent** (2026-02-14): New layer between Borg and sub-agents
+  - Tactical task management
+  - Reports to Borg, manages sub-agents
+- **Agent Factory Skill** (2026-02-14): Creates specialized agents on-demand
+  - Checks existing agents first
+  - Creates new under appropriate Borg member
+- **Apollo YouTube Shorts Generator** (2026-02-13): Built by nightly build
+  - Saves ~29 min per video planning
+  - Auto-generates AI image prompts
+- **Printful Upload Helper** (2026-02-14): CLI tool for Daydream Tees
+  - Workflow automation for manual uploads
+  - Saves ~14 min per design
+- **Decision Dashboard** (2026-02-14): Built to highlight approval bottleneck
+  - Shows 6+ items waiting on Matt decisions
+  - Pattern confirmed: execution > decisions
+- **SAG Skill** (2026-02-14): ElevenLabs TTS for Apollo voice-overs
 - **Second Brain** (2026-01-xx): Next.js document viewer at `second-brain/` with:
   - Document list with category filters (Journal/Concepts/Research/Outputs)
   - Wiki-links support (`[[Page Name]]` syntax)
@@ -64,8 +84,8 @@
 **Active projects (Matt-owned):**
 - **Apollo's Learning Corner** — Math theme confirmed, MVP content ready (videos, printables, book outline)
 - **Daydream Tees / Merch Ops** — 3 designs approved, Printify API blocked (manual upload workaround)
-- **Pluto LLC / Car-Sharing Platform** — compliance policies drafted, monetization decision pending
-- **Patchy the Penguin Pirate** — playable prototype delivered, awaiting story/game loop definition
+- **Pluto LLC / Car-Sharing Platform** — currently Turo only. Vision: independent rental operation. **Blockers:** Insurance, payment collection, delinquent car recovery. **Clarified (Feb 14):** Matt wants to solve these problems to build real platform.
+- **Patchy the Penguin Pirate** — playable prototype delivered. Story: educational + comedic, kid-friendly. Distribution: through Apollo. **Clarified (Feb 14):** Mixed educational + comedic, not purely one or the other.
 - **ESP32 / Cyberdeck / Gridfinity PCB** — new hardware project started, FE1.1s chip selected
 - **KDP Publishing Business** — 5 book ideas identified (Apollo tracing, Dad Jokes Log, Gratitude Journal, Fitness Log, Vehicle Maintenance Log)
 
@@ -81,6 +101,11 @@
 - **Daydream Tees Niche:** Faith-based + Dad humor, Etsy first, manual upload workaround
 - **Top 3 Priorities:** Apollo's Learning Corner, Daydream Tees, Pluto LLC
 - **Gridfinity PCB Design:** Hub-and-spoke topology, FE1.1s chip, pre-made OLED modules
+
+## Key Patterns (Feb 2026)
+- **Decision Bottleneck:** 15+ Clawd outputs completed, ~6 decisions pending from Matt since Feb 1
+- **Borg Execution > Matt Decisions:** The board is executing well but approval is the blocker
+- **Weekend Builds Work:** Saturday build sessions highly productive (Shorts Generator, Printful Helper, Decision Dashboard)
 
 ## Technical Patterns & Learnings
 - **Edit tool expects `path` not `file_path`** - parameter name mismatch causes validation errors
