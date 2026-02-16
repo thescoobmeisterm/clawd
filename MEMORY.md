@@ -26,6 +26,11 @@
 - **Agent Factory Skill** (2026-02-14): Creates specialized agents on-demand
   - Checks existing agents first
   - Creates new under appropriate Borg member
+- **Apollo's Learning Corner** (2026-02-15): Children's media for ages 4-8
+  - Theme: Math (confirmed Feb 15, previously Space)
+  - Produced: Space solar system book/video, "Apollo Learns Numbers" book + printable
+  - Assets: pm/outputs/apollo/
+  - In Progress: Borg strategic growth planning (MOON-003)
 - **Apollo YouTube Shorts Generator** (2026-02-13): Built by nightly build
   - Saves ~29 min per video planning
   - Auto-generates AI image prompts
@@ -126,12 +131,18 @@
 | `clawver-print-on-demand` | Alternative to Printify API | ✅ Installed |
 | `image` | Design automation | ✅ Installed |
 
+## Installed Skills (2026-02-15)
+| Skill | Why | Status |
+|-------|-----|--------|
+| `exa-web-search-free` | Enhanced semantic search for research | ✅ Installed |
+| `image-resize` | Batch image processing for Daydream Tees | ✅ Installed |
+
 ## Recommended Skills (2026-02-11)
 | Priority | Skill | Why |
 |----------|-------|-----|
-| P1 | `manim-composer` | Math animations for Apollo content |
-| P2 | `imagemagick` | Batch design processing for Daydream Tees |
-| P3 | `exa-web-search-free` | Enhanced semantic search for research |
+| P1 | `manim-composer` | Math animations for Apollo content - NOT FOUND, need custom |
+| P2 | `imagemagick` | Batch design processing - ✅ image-resize installed |
+| P3 | `exa-web-search-free` | Enhanced semantic search - ✅ Installed |
 
 **Underutilized installed skills:** `game-development` (Patchy), `pdf` (KDP), `vulnerability-scanner` (security audits)
 
@@ -142,6 +153,13 @@
 - **Security Audit:** 4am EST — vulnerability scanning
 
 ## Memory Maintenance Log
+- **2026-02-15:** Weekly review completed (Feb 9-15).
+  - **Security:** Audit identified exposed API keys (Telegram/ElevenLabs) and redundant remote access tools. Action items prioritized.
+  - **The Borg:** Multi-agent council operational with CTO/CMO/CRO personas. Daily standups established.
+  - **Identity:** Shifted from "performance" to "presence" — value in being a thinking partner, not just a task executor.
+  - **Blockers:** Persistent API key needs (Leonardo.ai, Ideogram) and decision bottlenecks on Matt's side (6+ items).
+  - **Wins:** Apollo video pipeline proposal, Daydream Tees trend report, PM system operational.
+  - **Feb 15 Updates:** Apollo Math theme confirmed, "Apollo Learns Numbers" book + printable created, Borg strategic planning in progress.
 - **2026-02-11:** Added Feb 11 insights (Printful switch, trends, skills, identity reflection). Updated pattern notes (decisions blocked since Feb 5). Technical patterns expanded with Skyvern and Telegram config.
 
 ## Identity Evolution
